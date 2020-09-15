@@ -10,7 +10,7 @@ Check out more info on [ezsyntax.willm.xyz](https://ezsyntax.willm.xyz) \ ã‚œoã‚
 
 -----------------------
 ## To-Do 
-- [ ] Allow users to change which programming language gets santaxed
+- [ ] Allow users to change which programming language gets santaxed (only HTML right now)
 - [ ] Instead of having to use `syntax('demo', 1)`, have an option to apply to all `<code>` blocks
 
 -----------------------
