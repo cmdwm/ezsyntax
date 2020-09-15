@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <title>ezSyntax</title>
+    <link rel="icon" href="https://cdn.glitch.com/36eb27a3-cf45-4f46-8b36-e02520a9b7be%2Fcode-solid.svg">
+    <meta property="og:title" content="ezSyntax" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Easily add syntax highlighting to your <code> blocks using one line of code." />
+<meta property="og:description" content="Easily add syntax highlighting to your <code> blocks using one line of code." />
+<link rel="canonical" href="https://ezsyntax.willm.xyz" />
+<meta property="og:url" content="https://ezsyntax.willm.xyz" />
+<meta name="keywords" content="syntax, highlighting, syntax highlighting, HTML, JavaScript, ezsyntax, syntax highlight html, syntax highlight html code, syntax highlighting, syntax highlighting html, html code, html syntax, javascript syntax, highlight, js syntax, html js syntax highlighting, easy santax, ez santax, ezsantax">   
+    
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/user/script.js" defer></script>
+    <script src="/index.js"></script>
+  </head>  
+  
+  
+  <body>
+   <center>
+    <div class="wrapper" style="background: black">
+    <h1 style="text-align: center;"><i class="fas fa-code"></i> ezSyntax</h1>
+      <span id="tagline" style="font-size: 18px; letter-spacing: 1px"><i></i>Easily add syntax highlighting to your <code>&lt;code&gt;</code> blocks using one line of code.</span><br>
+      <!-- buttons-->
+     <span onclick="demoButton()" id="demoButton">
+       <button onclick="syntax('example', 0); syntax('example', 1); syntax('example', 2); syntax('example', 3); syntax('example', 4); syntax('example', 5); syntax('example', 6); syntax('example', 7)"><i class="fas fa-highlighter"></i> Toggle Highlighting</button></span>
+     <a href="https://github.com/whasonyt/ezsyntax"><button><i class="fab fa-github"></i> GitHub</button></a>
+      <a href="https://willm.xyz/discord"><button><i class="fab fa-discord"></i> Support</button></a>
+     </div>
+   </center> 
+     
+    <div class="wrapper" style="background: #4261c7">
+       <h2 style="text-align: center;">Getting Started (1)</h2>
+    </div>
+      <p class="margin">
+        Reference the JavaScript code between your HTML <code class="pad example">&lt;head&gt;</code> and <code class="pad example">&lt;/head&gt;</code> tags:
+<code class="example pad">&lt;script src=&quot;https://ezsyntax.willm.xyz/user/script.js&quot;&gt;&lt;/script&gt;</code>
+      </p>
+    
+    
+    <div class="wrapper" style="background: #d64633">
+       <h2 style="text-align: center;">Syntax Highlight (2)</h2>
+    </div>
+    
+    <p class="margin">
+     To highlight code when the page loads, add this to your <code class="pad example">&lt;body&gt;</code> tag: <code class="example pad">&lt;body onload=&quot;syntax('className', number)&quot;&gt;</code>
+    <br><br>
+    If you want to highlight code on click, add this instead: <code class="pad example">&lt;body onclick=&quot;syntax('className', number)&quot;&gt;</code>
+   <br><br>
+The number references to which class number you're wanting to highlight. 
+      <br>
+      For example, if you wanted to highlight the first element with your selected class, you would do <code class="pad">syntax('demo', 0)</code>
+    </p>
+    
+  <center>
+  </center>
+    
+     <div class="wrapper" style="background: #1cba16">
+       <h2 style="text-align: center;">Examples (3)</h2>
+    </div>
+    <p class="margin">
+      Here are some example of how to use ezSyntax in different ways, such as <strong>highlighting multiple <code class="pad example">&lt;code&gt;</code> blocks.</strong>
+      <br>
+<br>
+      To highlight multiple code blocks on one <code class="pad">onclick</code> or <code class="pad">onload</code>, seperate each with a semicolon. (<code class="pad example">&lt;span onclick=&quot;syntax('demo', 0); syntax('demo', 1)&quot;&gt;</code>)
+    </p>
+   
+      
+<!-- FOOTER START-->
+      <br>
+    <footer>Made with <span onclick="alert('i luv u')" style="color: red; cursor: pointer;">❤</span> by <a href="https://willm.xyz">Will M</a></footer>
+  </body>
+  
+</html>
