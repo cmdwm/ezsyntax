@@ -1,7 +1,7 @@
 function syntax(name, number) {
-w3CodeColor(document.getElementsByClassName(name)[number])
+bigCheese(document.getElementsByClassName(name)[number])
 
-function w3CodeColor(elmnt, mode) {
+function bigCheese(elmnt, mode) {
   var lang = (mode || "html");
   var elmntObj = (document.getElementById(elmnt) || elmnt);
   var elmntTxt = elmntObj.innerHTML;
