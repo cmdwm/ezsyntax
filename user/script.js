@@ -25,7 +25,7 @@
 
  *  
  */
-function syntax(element, mode = "html", palette = { tagClr: "mediumblue", tagNameClr: "brown", attrClr: "red", attrValClr: "mediumblue", cmntClr: "green", cssSelClr: "brown", cssPropClr: "red", cssPropValClr: "mediumblue", cssDelmClr: "black", cssImpClr: "red", jsClr: "black", jskWdClr: "mediumblue", jsStringClr: "brown", jsNumClr: "red", jsPropClr: "black" }) {
+export default function syntax(element, mode = "html", palette = { tagClr: "mediumblue", tagNameClr: "brown", attrClr: "red", attrValClr: "mediumblue", cmntClr: "green", cssSelClr: "brown", cssPropClr: "red", cssPropValClr: "mediumblue", cssDelmClr: "black", cssImpClr: "red", jsClr: "black", jskWdClr: "mediumblue", jsStringClr: "brown", jsNumClr: "red", jsPropClr: "black" }) {
     transform(element, mode, palette);
 
     function transform(elmnt, mode, palette) {
