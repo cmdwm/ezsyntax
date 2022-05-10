@@ -20,10 +20,6 @@
  * @arg {string} [palette.jsStringClr = "brown"] The color to use for JS strings.
  * @arg {string} [palette.jsNumClr = "red"] The color to use for JS numbers.
  * @arg {string} [palette.jsPropClr = "black"] The color to use for JS properties.
- * 
- * 
-
- *  
  */
 function syntax(element, mode = "html", palette = { tagClr: "mediumblue", tagNameClr: "brown", attrClr: "red", attrValClr: "mediumblue", cmntClr: "green", cssSelClr: "brown", cssPropClr: "red", cssPropValClr: "mediumblue", cssDelmClr: "black", cssImpClr: "red", jsClr: "black", jskWdClr: "mediumblue", jsStringClr: "brown", jsNumClr: "red", jsPropClr: "black" }) {
     transform(element, mode, palette);
